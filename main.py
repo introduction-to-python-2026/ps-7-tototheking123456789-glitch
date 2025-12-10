@@ -9,4 +9,13 @@ df = data.frame
 df.sample(5)
 
 df.describe()
+
+
 df.dtypes
+
+
+
+features = list(df.columns)
+print("Available features:", features)
+selected_features = ['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population']
+print("Selected features: ", selected_features)
