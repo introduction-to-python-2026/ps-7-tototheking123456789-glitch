@@ -9,3 +9,4 @@ df = data.frame
 df.sample(5)
 
 df.describe()
+df.dtypes
